@@ -25,12 +25,12 @@
 .navbar-nav > li, .content .navbar-default .navbar-brand {
     border-style: solid;
     border-color: #fdfdfd;
-    border-width: 3px 0 3px 0;
+    border-width:  0 3px 0 3px;
 }
 
 .navbar-nav > li:hover {
     background-color: #ffffff;
-    border-color: #5593AB;
+    border-color: #C9EEFC;
 }
 
 .navbar-default .navbar-brand:hover {
