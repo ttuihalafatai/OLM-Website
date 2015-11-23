@@ -1,2 +1,38 @@
-h1 {
+.content {
+    background-color: #C9EEFC;
+    color: #434F54;
+    font-size: 16px;
+    font-size: 1.7em;
+}
+
+.content .navbar-brand {
+    font-size: 24px;
+    font-size: 1.5em;
+}
+
+.content .navbar-default .navbar-nav > li > a, .content .navbar-default .navbar-brand {
+    color: #434F54;
+}
+
+.content .navbar-default .navbar-nav > li > a:hover, .content .navbar-default .navbar-brand:hover {
+    color: #5593AB;
+}
+
+.content .navbar-default {
+    background-color: #fdfdfd;
+}
+
+.navbar-nav > li, .content .navbar-default .navbar-brand {
+    border-style: solid;
+    border-color: #fdfdfd;
+    border-width: 3px 0 3px 0;
+}
+
+.navbar-nav > li:hover {
+    background-color: #ffffff;
+    border-color: #5593AB;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: #ffffff;
 }
