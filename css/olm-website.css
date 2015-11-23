@@ -10,6 +10,21 @@
     font-size: 3.5em;
 }
 
+.content h2 {
+    font-size: 42px;
+    font-size: 2.3em;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #5593AB;
+}
+
+.content h3 {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7DD9FC;
+    padding-bottom: 5px;
+}
+
 .content ul {
     padding-left: 15px;
 }
@@ -44,11 +59,4 @@
 
 .navbar-default .navbar-brand:hover {
     background-color: #ffffff;
-}
-
-.content h3 {
-    display: inline-block;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #7DD9FC;
-    padding-bottom: 5px;
 }
