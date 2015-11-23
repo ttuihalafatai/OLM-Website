@@ -1,8 +1,17 @@
 .content {
     background-color: #C9EEFC;
     color: #434F54;
-    font-size: 16px;
-    font-size: 1.7em;
+    font-size: 18px;
+    font-size: 1.8em;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-size: 3.5em;
+}
+
+.content ul {
+    padding-left: 15px;
 }
 
 .content .navbar-brand {
@@ -35,4 +44,11 @@
 
 .navbar-default .navbar-brand:hover {
     background-color: #ffffff;
+}
+
+.church-values h3 {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7DD9FC;
+    padding-bottom: 5px;
 }
