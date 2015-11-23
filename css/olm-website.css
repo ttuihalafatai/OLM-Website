@@ -1,3 +1,7 @@
+.page-content {
+    margin: 60px 10px 70px 10px;
+}
+
 .content {
     background-color: #C9EEFC;
     color: #434F54;
@@ -59,4 +63,17 @@
 
 .navbar-default .navbar-brand:hover {
     background-color: #ffffff;
+}
+
+#footer .navbar {
+    text-align: center;
+    padding: 7px;
+    color: #3f6e7f;
+    min-height: 40px;
+}
+
+#footer .glyphicon {
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #7DD9FC;
 }
