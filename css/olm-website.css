@@ -3,10 +3,14 @@
 }
 
 .content {
-    background-color: #C9EEFC;
+    background-color: #FDFDFD;
     color: #434F54;
     font-size: 18px;
     font-size: 1.8em;
+}
+
+.content img {
+    border: 2px solid #5593ab;
 }
 
 .content h1 {
@@ -46,13 +50,9 @@
     color: #5593AB;
 }
 
-.content .navbar-default {
-    background-color: #fdfdfd;
-}
-
 .navbar-nav > li, .content .navbar-default .navbar-brand {
     border-style: solid;
-    border-color: #fdfdfd;
+    border-color: #c9eefc;
     border-width:  0 3px 0 3px;
 }
 
@@ -65,11 +65,17 @@
     background-color: #ffffff;
 }
 
+#navigation .navbar {
+    background-color: #C9EEFC;
+}
+
 #footer .navbar {
     text-align: center;
-    padding: 7px;
-    color: #3f6e7f;
+    padding: 9px;
+    background-color: #434f54;
+    color: #fdfdfd;
     min-height: 40px;
+    font-size: .8em;
 }
 
 #footer .glyphicon {
