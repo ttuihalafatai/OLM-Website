@@ -1,4 +1,4 @@
-window.onload = function() {
+function initializeMap() {
     var mapCanvas = document.getElementById('churchGoogleMap');
     var latLng = new google.maps.LatLng(21.3458, -157.860797);
     var mapOptions = {
@@ -14,4 +14,6 @@ window.onload = function() {
         map: map,
         title: 'Our Lady of the Mount Church'
     });
-};
+}
+
+window.onload = initializeMap;
