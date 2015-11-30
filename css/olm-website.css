@@ -1,5 +1,5 @@
 .page-content {
-    margin: 60px 10px 70px 10px;
+    margin: 80px 10px 70px 10px;
 }
 
 .content {
@@ -14,9 +14,12 @@
 }
 
 .content h1 {
-    font-family: 'Calligraffitti', cursive;
     font-size: 60px;
     font-size: 3.5em;
+}
+
+.content h1, .content .navbar-default .navbar-brand {
+    font-family: 'Calligraffitti', cursive;
 }
 
 .content h2 {
